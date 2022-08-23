@@ -1,0 +1,124 @@
+.page {
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+}
+
+ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+}
+
+h2 span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;    
+}
+
+button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F9F9F9;
+    background: #69B99D;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 14px 32px 15px 32px;
+    gap: 12px;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #509c81;
+}
+
+footer {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer a span {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 58px 0px 82px 0px
+}
+
+main p {
+    margin: 40px 0px;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    margin: 0;
+    min-height: 100vh;
+}
+
+#balls {
+    position: fixed;
+    bottom: 10px;
+    right: 12px;
+}
+
